@@ -87,6 +87,9 @@ body {
 .build {
     background-color: #012F34;
     height: 684px;
+    background-image: url(../images/build-img.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .build__wrapper {
