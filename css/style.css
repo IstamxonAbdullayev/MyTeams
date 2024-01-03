@@ -94,8 +94,8 @@ body {
 }
 
 .hero-title{
+    font-family: 'Livvic';
     padding-top: 15px;
-    padding-left: 165px;    
     padding-right: 30px;
     font-size: 100px;
     line-height: 100px;
@@ -108,12 +108,16 @@ body {
     align-items: center;
 }
 
+.hero-symbol {
+    color: #F67E7E;
+}
+
 .hero-wrapper-info{
     display: flex;
-    
 }
 
 .hero-desc{
+    font-family: 'Livvic';
     width: 445px;
     height: 112px;
     padding-top: 130px;
