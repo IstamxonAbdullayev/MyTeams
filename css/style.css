@@ -224,6 +224,7 @@ body {
 }
 
 .delivering-title {
+    font-family: "Livvic";
     color: #fff;
     text-align: center;
     font-size: 48px;
@@ -235,6 +236,7 @@ body {
 }
 
 .delivering-title-span {
+    font-family: "Livvic";
     color: #79C8C7;
 }
 
@@ -262,6 +264,7 @@ body {
 }
 
 .peop-text {
+    font-family: "Livvic";
     width: 350px;
     height: 100px;
     top: 36px;
@@ -275,6 +278,7 @@ body {
 }
 
 .peop-title {
+    font-family: "Livvic";
     width: 350px;
     height: 28px;
     font-size: 18px;
@@ -286,6 +290,7 @@ body {
 }
 
 .peop-job {
+    font-family: "Livvic";
     font-size: 13px;
     line-height: 18px;
     letter-spacing: 0px;
@@ -335,6 +340,7 @@ body {
 }
 
 .start-title {
+    font-family: "Livvic";
     width: 504px;
     height: 48px;
     font-size: 48px;
@@ -347,6 +353,7 @@ body {
 }
 
 .start-link {
+    font-family: "Livvic";
     width: 153px;
     height: 48px;
     font-size: 18px;
@@ -382,6 +389,7 @@ body {
 }
 
 .footer-item {
+    font-family: "Livvic";
     display: flex;
     list-style: none;
     margin-top: 25px;
@@ -394,6 +402,7 @@ body {
 }
 
 .footer-link {
+    font-family: "Livvic";
     text-decoration: none;
     width: 51px;
     height: 28px;
@@ -406,6 +415,7 @@ body {
 }
 
 .call-center {
+    font-family: "Livvic";
     width: 445px;
     height: 100px;
     font-size: 15px;
@@ -416,6 +426,7 @@ body {
 }
 
 .call-link {
+    font-family: "Livvic";
     color: #fff;
     text-decoration: none;
     width: 145px;
@@ -438,6 +449,7 @@ body {
 }
 
 .time-zone {
+    font-family: "Livvic";
     width: 258px;
     height: 25px;
     font-size: 15px;
