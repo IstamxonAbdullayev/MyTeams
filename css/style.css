@@ -207,3 +207,261 @@ body {
 .img {
     margin-top: 15px;
 }
+
+/*aziz codder css*/
+
+.delivering {
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background: #004047;
+}
+
+.delivering-container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.delivering-title {
+    font-family: "Livvic";
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 92px;
+}
+
+.delivering-title-span {
+    font-family: "Livvic";
+    color: #79C8C7;
+}
+
+.delivering-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.peoples-wrap {
+    margin: 0px 30px 0px 30px;
+    width: 350px;
+}
+
+.result {
+    background-image: url(../images/result-img.svg);
+    background-repeat: no-repeat;
+    margin: -42px -146px -42px 146px;
+}
+
+.peop-text {
+    font-family: "Livvic";
+    width: 350px;
+    height: 100px;
+    top: 36px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.peop-title {
+    font-family: "Livvic";
+    width: 350px;
+    height: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #79C8C7;
+}
+
+.peop-job {
+    font-family: "Livvic";
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+.peop-img {
+    width: 62px;
+    position: relative;
+    left: 144px;
+    top: 32px;
+    bottom: 11px;
+}
+
+.bottom-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.start {
+    position: relative;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    background-color:#F67E7E;
+}
+
+.start-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.start-container {
+    width: 917px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.start-title {
+    font-family: "Livvic";
+    width: 504px;
+    height: 48px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #012F34;
+    margin: 0;
+}
+
+.start-link {
+    font-family: "Livvic";
+    width: 153px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #012F34;
+    text-decoration: none;
+    border: 2px solid #012F34;
+    border-radius: 76.5px;
+    padding-top: 9px;
+    margin-left: 260px;
+}
+
+.footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #002529;
+}
+
+.fotter-container {
+    width: 1110px;
+    height: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-logo-wrap {
+    width: 285px;
+    height: 100px;
+}
+
+.footer-item {
+    font-family: "Livvic";
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 7px;
+    margin-left: -40px;
+}
+
+.footer-list {
+    margin-right: 40px;
+}
+
+.footer-link {
+    font-family: "Livvic";
+    text-decoration: none;
+    width: 51px;
+    height: 28px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+
+.call-center {
+    font-family: "Livvic";
+    width: 445px;
+    height: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.call-link {
+    font-family: "Livvic";
+    color: #fff;
+    text-decoration: none;
+    width: 145px;
+    height: 100px;
+    left: 285px;
+    opacity: 0.6px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.sorshal-media {
+    list-style: none;
+}
+
+.sorshal-media a {
+    text-decoration: none;
+}
+
+.ijtimoiy-tarmoq {
+    margin-left: 16px;
+}
+
+.time-zone {
+    font-family: "Livvic";
+    width: 258px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #fff;
+    margin-top: 51px;
+    margin-left: 125px;
+}
