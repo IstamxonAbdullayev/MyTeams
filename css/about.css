@@ -76,6 +76,222 @@ body {
     position: relative;
 }
 
+.header-bottom {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 30px;
+}
+.hero-title {
+    width: 350px;
+    height: 100px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+}
+.hero-item-3 {
+    width: 445px;
+}
+.hero-box {
+    width: 50px;
+    height: 4px;
+    background: #F67E7E;
+    margin-bottom: 40px;
+    border: none;
+}
+.text {
+    width: 730px;
+    height: 112px;
+    top: 44px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+.hero-bottom-img {
+    position: absolute;
+    right: 0;
+}
+.meet {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #004047;
+    position: relative;
+}
+.meet-top-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.meet-bottom-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.meet-container {
+    width: 1110px;
+    height: 722px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.meet-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 64px;
+    color: #fff;
+}
+.meet-title-text {
+    width: 920px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+.people-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 30px;
+}
+.box1 {
+    width: 350px;
+    height: 253px;
+    background-color: #012F34;
+}
+.box2 {
+    width: 302px;
+    height: 165px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
+}
+.peopl {
+    width: 96px;
+    height: 96px;
+    display: flex;
+    border-radius: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+.peopl-link {
+    width: 302px;
+    height: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #79C8C7;
+    text-decoration: none;
+}
+.peopl-text {
+    width: 302px;
+    height: 25px;
+    top: 28px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+}
+.imags {
+}
+.plus {
+    margin-left: 123px;
+    margin-top: 28px;
+}
+.people-wrap-bottom {
+    display: flex;
+    gap: 30px;
+    margin-top: 48px;
+}
+.links {
+    width: 60px;
+    height: 20px;
+}
+.asab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 20px;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+.logo-s {
+}
+.iks {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #79C8C7;
+    margin-top: 58px;
+}
+
+
+.start {
+    position: relative;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    background-color:#F67E7E;
+}
+
+.start-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.start-container {
+    width: 917px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.start-title {
+    width: 504px;
+    height: 48px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #012F34;
+}
+
+.start-link {
+    width: 153px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #012F34;
+    text-decoration: none;
+    border: 2px solid #012F34;
+    border-radius: 76.5px;
+    padding-top: 9px;
+    margin-left: 260px;
+}
+
 .footer {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -101,7 +317,6 @@ body {
     list-style: none;
     margin-top: 25px;
     margin-bottom: 7px;
-    margin-left: -40px;
 }
 
 .footer-list {
