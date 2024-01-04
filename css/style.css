@@ -444,6 +444,10 @@ body {
     list-style: none;
 }
 
+.sorshal-media a {
+    text-decoration: none;
+}
+
 .ijtimoiy-tarmoq {
     margin-left: 16px;
 }
