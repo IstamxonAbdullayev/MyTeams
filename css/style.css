@@ -256,10 +256,9 @@ body {
 }
 
 .result {
-    position: relative;
-    top: 0;
-    margin-bottom: -25px;
-    left: 142px;
+    background-image: url(../images/result-img.svg);
+    background-repeat: no-repeat;
+    margin: -42px -146px -42px 146px;
 }
 
 .peop-text {
@@ -344,6 +343,7 @@ body {
     letter-spacing: 0px;
     text-align: left;
     color: #012F34;
+    margin: 0;
 }
 
 .start-link {
@@ -360,4 +360,92 @@ body {
     border-radius: 76.5px;
     padding-top: 9px;
     margin-left: 260px;
+}
+
+.footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #002529;
+}
+
+.fotter-container {
+    width: 1110px;
+    height: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-logo-wrap {
+    width: 285px;
+    height: 100px;
+}
+
+.footer-item {
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 7px;
+    margin-left: -40px;
+}
+
+.footer-list {
+    margin-right: 40px;
+}
+
+.footer-link {
+    text-decoration: none;
+    width: 51px;
+    height: 28px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+
+.call-center {
+    width: 445px;
+    height: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.call-link {
+    color: #fff;
+    text-decoration: none;
+    width: 145px;
+    height: 100px;
+    left: 285px;
+    opacity: 0.6px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.sorshal-media {
+    list-style: none;
+}
+
+.ijtimoiy-tarmoq {
+    margin-left: 16px;
+}
+
+.time-zone {
+    width: 258px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #fff;
+    margin-top: 51px;
+    margin-left: 125px;
 }
