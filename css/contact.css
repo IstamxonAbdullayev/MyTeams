@@ -11,7 +11,6 @@ body {
 
 .header {
     padding-top: 73px;
-    padding-bottom: 194px;
     background: #014E56;
 }
 
@@ -68,16 +67,14 @@ body {
     color: #002529;
 }
 
-
-
 .section {
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     position: relative;
 }
 
 .section-container {
-    width: 1120px;
+    width: 1110px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -85,7 +82,7 @@ body {
 
 .section-1 {
     width: 540px;
-    height: 312px;
+    height: 442px;
 }
 
 .section-wrap {
@@ -100,8 +97,6 @@ body {
 .contact {
     width: 350px;
     height: 100px;
-    top: 241px;
-    left: 165px;
     font-size: 64px;
     font-weight: 700;
     line-height: 100px;
@@ -114,18 +109,25 @@ body {
 .section-title {
     width: 540px;
     height: 48px;
-    top: 357px;
-    left: 165px;
     font-size: 32px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0px;
     text-align: left;
     color: #F67E7E;
+    margin-bottom: 32px;
 }
 
-.people {
-    margin-top: 29px;
+.top {
+    position: absolute;
+    top: 146px;
+    left: 0;
+}
+
+.boot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .person {
@@ -136,7 +138,7 @@ body {
 .person-img {
     width: 540px;
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
 }
 
 .p-img {
@@ -167,31 +169,59 @@ body {
 
 .form {
     width: 540px;
-    height: 348px;
-    top: 241px;
-    left: 737px;  
+    height: 420px;
+    margin-left: 30px;
 }
 
 .input input {
     width: 540px;
     height: 42px;
-    padding: 0px 0px 16px 14px;
+    padding: 0px 0px 18px 14px;
     border: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
     margin-bottom: 24px;
+    background: none;
+}
+
+.inputt input {
+    width: 540px;
+    height: 42px;
+    padding: 6px 0px 58px 14px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 24px;
+    background: none;
 }
 
 input::placeholder {
     width: 445px;
     height: 25px;
-    left: 14px;
-    opacity: 0.6px;
     font-size: 15px;
     font-weight: 600;
     line-height: 25px;
     letter-spacing: -0.11538461595773697px;
-    text-align: left;
-      
+    text-align: left;  
+    color: #fff;
+    background: none;
+}
+
+.submit {
+    width: 123px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    border-radius: 61.5px;
+    color: #004047;
+    border: none;
+}
+
+.submit:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #002529;
 }
 
 .footer {
@@ -238,6 +268,10 @@ input::placeholder {
     color: #fff;
 }
 
+.footer-link:active {
+    color: #F67E7E;
+}
+
 .call-center {
     font-family: "Livvic";
     width: 445px;
@@ -264,6 +298,10 @@ input::placeholder {
     text-align: left;
 }
 
+.call-link:hover {
+    color: #d7d7d7;
+}
+
 .sorshal-media {
     list-style: none;
 }
@@ -288,4 +326,8 @@ input::placeholder {
     color: #fff;
     margin-top: 51px;
     margin-left: 125px;
+}
+
+.time-zone:hover {
+    color: #d7d7d7;
 }
