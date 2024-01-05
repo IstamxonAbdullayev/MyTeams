@@ -60,6 +60,7 @@ body {
     font-weight: 600;
     line-height: 28px;
     margin-left: auto;
+    text-decoration: none;
 }
 
 .header-btn:active {
@@ -253,9 +254,6 @@ body {
     color: #fff;
 }
 
-.imags {
-}
-
 .plus {
     margin-left: 123px;
     margin-top: 28px;
@@ -287,9 +285,6 @@ body {
     margin-top: 100px;
 }
 
-.logo-s {
-}
-
 .iks {
     margin-left: auto;
     margin-right: auto;
@@ -298,6 +293,14 @@ body {
     justify-content: center;
     color: #79C8C7;
     margin-top: 58px;
+}
+
+.container {
+    height: 437px;
+    background-color: #012F34;
+    padding: 1px 0px 0px 0px;
+    background-image: url(../images/clients-bg.png);
+    background-repeat: no-repeat;
 }
 
 .some-container {

@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #004047;
+    font-family: "Livvic", sans-serif;
+}
+
+.header {
+    padding-top: 73px;
+    padding-bottom: 194px;
+    background: #014E56;
+}
+
+.header-container {
+    display: flex;
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo {
+    display: flex;
+    width: 160px;
+    height: 40px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 80px;
+}
+
+.link {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-decoration: none;
+    align-items: center;
+    transition: all 0.3s;
+    margin-right: 40px; 
+}
+
+.link:active {
+    color: #F67E7E;
+}
+
+.header-btn {
+    padding: 9px 32px 9px 32px;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.header-btn:active {
+    background-color: #fff;
+    color: #002529;
+}
+
+
+.footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #002529;
+}
+
+.fotter-container {
+    width: 1110px;
+    height: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-logo-wrap {
+    width: 285px;
+    height: 100px;
+}
+
+.footer-item {
+    font-family: "Livvic";
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+.footer-list {
+    margin-right: 40px;
+}
+
+.footer-link {
+    font-family: "Livvic";
+    text-decoration: none;
+    width: 51px;
+    height: 28px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+
+.call-center {
+    font-family: "Livvic";
+    width: 445px;
+    height: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.call-link {
+    font-family: "Livvic";
+    color: #fff;
+    text-decoration: none;
+    width: 145px;
+    height: 100px;
+    left: 285px;
+    opacity: 0.6px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.sorshal-media {
+    list-style: none;
+}
+
+.sorshal-media a {
+    text-decoration: none;
+}
+
+.ijtimoiy-tarmoq {
+    margin-left: 16px;
+}
+
+.time-zone {
+    font-family: "Livvic";
+    width: 258px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #fff;
+    margin-top: 51px;
+    margin-left: 125px;
+}
