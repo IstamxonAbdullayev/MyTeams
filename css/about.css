@@ -81,8 +81,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    gap: 30px;
 }
+
 .hero-title {
     width: 350px;
     height: 100px;
@@ -94,9 +94,12 @@ body {
     color: #fff;
     margin: 0;
 }
+
 .hero-item-3 {
     width: 445px;
+    margin-left: 30px;
 }
+
 .hero-box {
     width: 50px;
     height: 4px;
@@ -104,6 +107,7 @@ body {
     margin-bottom: 40px;
     border: none;
 }
+
 .text {
     width: 730px;
     height: 112px;
@@ -115,32 +119,38 @@ body {
     text-align: left;
     color: #fff;
 }
+
 .hero-bottom-img {
     position: absolute;
     right: 0;
 }
+
 .meet {
     padding-top: 140px;
     padding-bottom: 140px;
     background-color: #004047;
     position: relative;
 }
+
 .meet-top-img {
     position: absolute;
     left: 0;
     top: 0;
 }
+
 .meet-bottom-img {
     position: absolute;
     right: 0;
     bottom: 0;
 }
+
 .meet-container {
     width: 1110px;
     height: 722px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .meet-title {
     font-size: 48px;
     font-weight: 700;
@@ -149,6 +159,7 @@ body {
     margin-bottom: 64px;
     color: #fff;
 }
+
 .meet-title-text {
     width: 920px;
     text-align: center;
@@ -159,17 +170,21 @@ body {
     margin-right: auto;
     color: #fff;
 }
+
 .people-wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px 30px;
 }
+
 .box1 {
     width: 350px;
     height: 253px;
     background-color: #012F34;
+    margin-bottom: 48px;
+    margin-left: 20px;
 }
+
 .box2 {
     width: 302px;
     height: 165px;
@@ -177,6 +192,11 @@ body {
     margin-right: auto;
     padding-top: 32px;
 }
+
+.box3 {
+    margin: 35px 48px 110px 48px;
+}
+
 .peopl {
     width: 96px;
     height: 96px;
@@ -186,6 +206,7 @@ body {
     margin-right: auto;
     margin-bottom: 16px;
 }
+
 .peopl-link {
     width: 302px;
     height: 28px;
@@ -197,6 +218,19 @@ body {
     color: #79C8C7;
     text-decoration: none;
 }
+
+.peopl-link2 {
+    width: 256px;
+    height: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #79C8C7;
+    text-decoration: none;
+}
+
 .peopl-text {
     width: 302px;
     height: 25px;
@@ -207,21 +241,42 @@ body {
     text-align: center;
     color: #fff;
 }
+
+.peopl-text2 {
+    width: 254px;
+    height: 25px;
+    top: 28px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+}
+
 .imags {
 }
+
 .plus {
     margin-left: 123px;
     margin-top: 28px;
 }
+
 .people-wrap-bottom {
     display: flex;
-    gap: 30px;
     margin-top: 48px;
 }
-.links {
-    width: 60px;
+
+.linkn {
+    width: -1px;
     height: 20px;
+    margin: 78px 0px -74px 96px;
 }
+
+.links {
+    text-decoration: none;
+    margin-right: 14px;
+}
+
 .asab {
     display: flex;
     align-items: center;
@@ -231,8 +286,10 @@ body {
     margin-left: 40%;
     margin-top: 100px;
 }
+
 .logo-s {
 }
+
 .iks {
     margin-left: auto;
     margin-right: auto;
@@ -243,6 +300,59 @@ body {
     margin-top: 58px;
 }
 
+.some-container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+    margin-top: 140px;
+}
+
+.some-item {
+    width: 920px;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.some-wrap {
+    width: 1128px;
+    height: 45px;
+}
+
+.some-img1 {
+    width: 165px;
+    height: 28px;
+}
+
+.some-img2 {
+    width: 184px;
+    height: 23px;
+    margin-left: 80px;
+}
+
+.some-img3 {
+    width: 180px;
+    height: 28px;
+    margin-left: 80px;
+}
+
+.some-img4 {
+    width: 165px;
+    height: 28px;
+    margin-left: 80px;
+}
+
+.some-img5 {
+    width: 98px;
+    height: 45px;
+    margin-left: 80px;
+}
 
 .start {
     position: relative;
