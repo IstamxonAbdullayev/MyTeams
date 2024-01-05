@@ -69,6 +69,131 @@ body {
 }
 
 
+
+.section {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    position: relative;
+}
+
+.section-container {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.section-1 {
+    width: 540px;
+    height: 312px;
+}
+
+.section-wrap {
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #F67E7E;
+    border: none;
+    margin-bottom: 54px;
+}
+
+.contact {
+    width: 350px;
+    height: 100px;
+    top: 241px;
+    left: 165px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    width: 540px;
+    height: 48px;
+    top: 357px;
+    left: 165px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #F67E7E;
+}
+
+.people {
+    margin-top: 29px;
+}
+
+.person {
+    width: 540px;
+    margin-bottom: 58px;
+}
+
+.person-img {
+    width: 540px;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.p-img {
+    margin-right: 23px;
+}
+
+.person-title {
+    width: 445px;
+    color: #F67E7E;
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.person-text-box {
+    display: flex;
+    align-items: center;
+}
+
+.person-text {
+    width: 445px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.form {
+    width: 540px;
+    height: 348px;
+    top: 241px;
+    left: 737px;  
+}
+
+.input input {
+    width: 540px;
+    height: 42px;
+    padding: 0px 0px 16px 14px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 24px;
+}
+
+input::placeholder {
+    width: 445px;
+    height: 25px;
+    left: 14px;
+    opacity: 0.6px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.11538461595773697px;
+    text-align: left;
+      
+}
+
 .footer {
     padding-top: 48px;
     padding-bottom: 48px;
