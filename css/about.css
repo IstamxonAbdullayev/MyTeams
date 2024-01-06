@@ -405,6 +405,11 @@ body {
     margin-left: 260px;
 }
 
+.start-link:active {
+    background-color: #012F34;
+    color: #fff;
+}
+
 .footer {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -449,6 +454,10 @@ body {
     color: #fff;
 }
 
+.footer-link:active {
+    color: #F67E7E;
+}
+
 .call-center {
     font-family: "Livvic";
     width: 445px;
@@ -475,6 +484,10 @@ body {
     text-align: left;
 }
 
+.call-link:hover {
+    color: #d7d7d7;
+}
+
 .sorshal-media {
     list-style: none;
 }
@@ -499,4 +512,8 @@ body {
     color: #fff;
     margin-top: 51px;
     margin-left: 125px;
+}
+
+.time-zone:hover {
+    color: #d7d7d7;
 }

@@ -71,18 +71,31 @@ body {
     text-decoration: none;
 }
 
+.sitenav__link:hover {
+    color: #F67E7E;
+    transition: 0.6s ease;
+}
+
 .header__link {
-    font-family: "Livvic";
-    font-size: 16px;
+    width: 153px;
+    height: 48px;
+    font-family: Livvic;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 28px;
-    text-align: left;
+    line-height: 28px;    
+    text-align: center;
     color: #fff;
     text-decoration: none;
-    padding: 9px 32px 9px 32px;
-    border: 2px solid #fff;
-    border-radius: 500px;
+    background-color: #014E56;
+    border: 1px solid #fff;
+    border-radius: 76.5px;
+    padding: 9px 31px 9px 32px;
     margin-left: 530px;
+}
+
+.header__link:hover {
+    background-color: #fff;
+    color: #002529;
 }
 
 .hero{
@@ -99,7 +112,9 @@ body {
     padding-right: 30px;
     font-size: 100px;
     line-height: 100px;
-    color:  #FFFFFF;
+    color: #FFFFFF;
+    height: 200px;
+    width: 635px;
 }
 
 .hero-wrapper{
@@ -116,14 +131,25 @@ body {
     display: flex;
 }
 
+.line {
+    width: 50px;
+    height: 4px;
+    background: #79C8C7;
+    margin: 82px 0px 0px -426px;
+}
+
 .hero-desc{
-    font-family: 'Livvic';
-    width: 445px;
+    width: 428px;
     height: 112px;
-    padding-top: 130px;
-    line-height: 28px;
+    font-family: Livvic;
     font-size: 18px;
-    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+    margin-top: 162px;
+    margin-left: 30px;
 }
 
 .build {
@@ -202,6 +228,7 @@ body {
     letter-spacing: 0px;
     text-align: left;
     color: #fff;
+    width: 445px;
 }
 
 .img {
@@ -369,6 +396,11 @@ body {
     margin-left: 260px;
 }
 
+.start-link:active {
+    background-color: #012F34;
+    color: #fff;
+}
+
 .footer {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -414,6 +446,10 @@ body {
     color: #fff;
 }
 
+.footer-link:active {
+    color: #F67E7E;
+}
+
 .call-center {
     font-family: "Livvic";
     width: 445px;
@@ -440,6 +476,10 @@ body {
     text-align: left;
 }
 
+.call-link:hover {
+    color: #d7d7d7;
+}
+
 .sorshal-media {
     list-style: none;
 }
@@ -464,4 +504,8 @@ body {
     color: #fff;
     margin-top: 51px;
     margin-left: 125px;
+}
+
+.time-zone:hover {
+    color: #d7d7d7;
 }
